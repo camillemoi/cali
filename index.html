@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DM &#127774;</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <link rel="stylesheet" href="styleDM.css" />
+  <link rel="icon" href="los-angeles.png">
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="metro_java.js"></script>
+  <script src="metro_moving.js"></script>
+  <script src="studios_java.js"></script>
+  <script src="housing_java.js"></script>
+  <script type="text/javascript" src="Leaflet.AnimatedMarker-master/src/AnimatedMarker.js"></script>
+</head>
+
+<body>
+  <h1>Les studios de cinéma à Los Angeles, Californie</h1>
+  <button id="button">Présentation personnelle</button>
+  <div id="map"></div>
+  <div id="studio_name"></div>
+  <div id="studio_resume"></div>
+  <div id="overlay"></div>
+  <div id="popup">
+      <div class="popupcontrols">
+          <span id="popupclose">X</span>
+      </div>
+      <div class="popupcontent">
+          <h2>Camille Moinier</h2>
+          <div id = "infos_perso">
+            DM de Développement Web - 22/12/21
+          </div>
+          <img src = "logo_ens.png"style="float:left;width:200px;height:200px;">
+          <img src = "logo_geonum.png"style="float:right;width:200px;height:200px;">
+      </div>
+    </div>
+</body>
+<script type="text/javascript" src="DM_java.js"></script>
+</html>
+

@@ -1,0 +1,218 @@
+body {
+    background-image: url("la_fond.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 40px;
+    background-color:rgb(236, 236, 236);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px double rgb(241, 175, 89);
+    opacity: 0.7;
+}
+
+#infos_perso {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#studio_name {
+    background-color:rgb(236, 236, 236);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    float:left;
+    font-size: 25px;
+    overflow-wrap: normal;
+    width : 18%;
+    border: 1px solid rgb(241, 175, 89);
+}
+#studio_resume {
+    background-color:rgb(236, 236, 236);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    float:left;
+    font-size: 18px;
+    overflow-wrap: normal;
+    width : 18%;
+    height : 85vh;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+#map {
+    margin-top: 10mm;   
+    width: 80%;
+    height: 85vh;
+    float:right;
+    margin: 0 15px 15px 0;
+    border: 1px solid rgb(241, 175, 89);
+  }
+
+.popup {
+    background-color: darkslategrey;
+    color:lavenderblush;
+    border: 2px solid #23b8b8;
+  }
+
+.legend {
+    padding: 6px 8px;
+    font: 14px Georgia, 'Times New Roman', Times, serif;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    line-height: 24px;
+    color: #555;
+}
+.legend h4 {
+text-align: center;
+font-size: 16px;
+margin: 2px 12px 8px;
+color: #777;
+}
+
+.legend span {
+position: relative;
+bottom: 3px;
+}
+
+.legend i {
+width: 18px;
+height: 18px;
+float: left;
+margin: 0 8px 0 0;
+opacity: 0.7;
+}
+
+.legend i.icon {
+background-size: 18px;
+background-color: rgba(255, 255, 255, 1);
+}
+
+.pop_metro .leaflet-popup-content {
+font: 14px/16px Georgia, 'Times New Roman', Times, serif;
+background-color: rgb(244, 248, 228);
+border-radius: 5px;
+}
+.pop_metro .leaflet-popup-content-wrapper {
+    background-color: rgb(244, 248, 228);
+}
+.pop_metro .leaflet-popup-tip {
+    background-color: rgb(244, 248, 228);
+}
+
+.leaflet-tooltip-left:before {
+    right: 0;
+    margin-right: -12px;
+    border-left-color: rgba(0, 0, 0, 0.4);
+    }
+.leaflet-tooltip-right:before {
+left: 0;
+margin-left: -12px;
+border-right-color: rgba(0, 0, 0, 0.4);
+}
+.tooltip_quartiers {
+position: absolute;
+padding: 4px;
+background-color: rgb(244, 248, 228);
+color: #000;
+box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+font: 12px/14px Georgia, 'Times New Roman', Times, serif;
+}
+
+#overlay {
+    position: relative;
+    display: none;
+    top: 0;
+    bottom: 0;
+    background: rgb(231, 229, 229);
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 1000;
+}
+
+#popup {
+    position: fixed;
+    display: none;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    width: 500px;
+    height: 400px;
+    margin-left: -250px;
+    margin-top: -250px;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+#popupclose {
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.popupcontent {
+    padding: 10px;
+}
+
+#button {
+    text-align: center;
+    display: block;
+    padding: 15px 40px;
+    border: 1px solid rgb(241, 175, 89);
+    cursor: pointer;
+    letter-spacing: 2px;
+    position:relative;
+    overflow:hidden;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+#button:before {
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    background : rgb(243, 225, 145);
+    left: -55px;
+    top: -40px;
+    transform: rotate(37deg);
+    transition: all .3s;
+    opacity: 0.3;
+  }
+  
+ #button:hover:before {
+    left:95%;
+  }
+
+  
